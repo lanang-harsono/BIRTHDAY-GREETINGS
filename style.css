@@ -1,0 +1,54 @@
+body {
+  font-family: 'Fredoka', cursive;
+  background: linear-gradient(to bottom right, #fff0f5, #ffe4e1);
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1, h2 {
+  color: #e91e63;
+}
+.foto-tengah {
+  margin-top: -30px;
+}
+.gallery img {
+  width: 180px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.gift-icon {
+  width: 100px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.gift-icon:hover {
+  transform: scale(1.1);
+}
+.btn-hadiah {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 25px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background 0.3s ease;
+}
+.btn-hadiah:hover {
+  background-color: #e91e63;
+}
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #888;
+}
+
